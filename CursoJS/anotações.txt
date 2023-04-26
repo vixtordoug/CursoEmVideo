@@ -198,6 +198,14 @@ Selecionando
     Classe
         getElementsByClassName()[]
     Seletor
-        querySelector([div#msg] ou [div.msg])
+        querySelector('[div#msg] ou [div.msg]')
             # Id
             . Class
+
+================================================================================================
+================================================================================================
+
+Funções
+function ação(){
+    [bloco]
+}
