@@ -1,0 +1,203 @@
+JavaScript
+
+Framework e bibliotecas
+- jQuery
+- Angular
+- React
+- Vue
+- Electron
+- Ionic
+================================================================================================
+================================================================================================
+
+Bibliografia
+- JavaScript Guia Definitivo (O'Reilly)
+- JavaScript Guia do Programador (Novatec)
+- developer.mozilla.org
+- ecma-internacional.org
+
+================================================================================================
+================================================================================================
+
+MÓDULO B | MÓDULO B | MÓDULO B | MÓDULO B | MÓDULO B | MÓDULO B | MÓDULO B | MÓDULO B | MÓDULO B 
+
+Comandos JS:
+    Janelas
+        window.alert - janela de alerta
+        window.confirm - janela de confirmação
+        window.prompt - janela com campo
+
+------------------------------------------------------------------------------------------------
+
+    Converções
+        Números
+            Number.parseInt(n) - String para Number (Inteiro)
+            Number.parseFloat(n) - String para Number (Reais)
+            Number(n) - JS decide automaticamente
+
+        Strings
+            String(n) - Number para String
+            n.toString() - Number para String
+
+------------------------------------------------------------------------------------------------
+
+Formatação de Number:
+    n.toFixed(2) - fixa 2 casas decimais
+    n.toFixed(2).replace('.' , ',') - troca a Formatação (Ponto para Vírgula) 
+    n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Formatação monétária do Brasil
+
+------------------------------------------------------------------------------------------------
+
+Formatação de Strings:
+    alert('sua idade é: ' + idade)
+    alert(`sua idade é: ${idade}`)
+
+    s.length - quantos caracteres tem a String
+
+    s.toUpperCase - converte para 'MAIÚSCULA'
+    s.toLowerCase - converte para 'minúscula'
+
+------------------------------------------------------------------------------------------------
+
+Outros:
+    typeof - retorna o tipo da variável
+
+================================================================================================
+================================================================================================
+
+Indentificadores:
+
+var ou let - criar variáveis
+
+Regras
+- Pode iniciar com $, letra ou _
+- Não pode começar com números
+- Pode utilizar ambas juntas
+- É possível usar acentos e símbolos
+- Não pode conter espaços
+- Não pode conter palavras reservadas
+
+------------------------------------------------------------------------------------------------
+Dicas
+- minúscula e MAIÚSCULA tem diferença
+- Tipos Primitivos: Number, String, Boolean
+- Data types:
+    number: Infinity, NaN
+    string - "JavaScript"/ 'JavaScript'/ `JavaScript`
+    boolean
+    null - valor nulo
+    underfined
+    object: Array
+    function
+================================================================================================
+================================================================================================
+
+Operadores:
+    Ordem de Precedência:
+        1º aritméticos
+            1º - [()]
+            2º - [**]
+            3º - [*] [/] [%]
+            4º - [+] [-]
+        2º relacionais
+            1º - esquerda para direita
+        3º lógicos
+            1º - [!]
+            2º - [&&]
+            3º - [||]
+
+------------------------------------------------------------------------------------------------
+
+- aritméticos
+    [+]  adição 
+    [-]  subtração 
+    [*]  multiplicação 
+    [/]  divisão 
+    [%]  resto de divisão inteira 
+    [**] potência 
+
+    Ordem de Precedência:
+        1º - [()]
+        2º - [**]
+        3º - [*] [/] [%]
+        4º - [+] [-]
+
+------------------------------------------------------------------------------------------------
+
+- atribuição
+    atribuição simples [=]
+        var n = 3   
+    auto-atribuição 
+        [n = n + 3] ou [n += 3]
+        [n = n - 3] ou [n -= 3]
+        [n = n * 3] ou [n *= 3]
+        [n = n */3] ou [n /= 3]
+        [n = n ** 3] ou [n **= 3]
+        [n = n % 3] ou [n %= 3]
+
+        [n++] pós incremento de 1
+        [++n] pré incremento de 1
+        [n--] pós decremento de 1
+        [--n] pré decremento de 1
+
+------------------------------------------------------------------------------------------------  
+
+- relacionais 
+    retornam valores booleanos
+    [>]  maior que
+    [<]  menor que
+    [>=] maior ou igual que
+    [<=] menor ou igual que
+    [==] igual a (valor apenas)
+    [!=] diferente de
+    [===] testa identidade (valor e tipo)
+
+------------------------------------------------------------------------------------------------ 
+
+- lógicos
+    [!]  negação -> unário
+            [!true]  false
+            [!false] true
+
+    [&&] conjunção (e) -> binário
+            [true && true]   true
+            [true && false]  false
+            [false && true]  false
+            [false && false] false
+
+    [||] disjunção (ou) -> binário
+            [true || true]   true
+            [true || false]  true
+            [false || true]  true
+            [false || false] false
+
+------------------------------------------------------------------------------------------------ 
+
+- ternários
+    [teste]?[true]:[false] - realiza-se o teste, é executado [true] ou [false]
+    
+    ex. node:
+        > var n = 6.5
+        > n > 7 ? "Maior" : "Menor"
+        > "Menor"
+
+================================================================================================
+================================================================================================
+
+MÓDULO C | MÓDULO C | MÓDULO C | MÓDULO C | MÓDULO C | MÓDULO C | MÓDULO C | MÓDULO C | MÓDULO C
+
+ENTENDENDO DOM
+
+Selecionando
+    Marca
+        getElementsByTagName()[]
+    Id 
+        getElementById()
+    Nome
+        getElementsByName()[]
+    Classe
+        getElementsByClassName()[]
+    Seletor
+        querySelector([div#msg] ou [div.msg])
+            # Id
+            . Class
