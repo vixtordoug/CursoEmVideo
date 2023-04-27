@@ -218,9 +218,28 @@ Condições:
             [bloco]
         }
 
+------------------------------------------------------------------------------------------------ 
+
     condição aninhada:
         if([condição]){
             [bloco]
         } else {
             [bloco]
+        }
+    
+------------------------------------------------------------------------------------------------ 
+    
+    condição múltipla:
+        switch(expressão){
+            case valor1:
+                [bloco]
+                break
+
+            case valor2:
+                [bloco]
+                break
+
+            default:
+                [bloco]
+                break
         }
