@@ -23,6 +23,6 @@ switch (dia) {
         console.log("Sábado")
         break;
     default:
-        console.log("[EROO] Dia Inválido")
+        console.log("[ERRO] Dia Inválido")
         break;
 }
